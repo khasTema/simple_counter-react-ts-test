@@ -1,0 +1,18 @@
+.btn {
+    text-transform: uppercase;
+    width: fit-content;
+    padding: 1rem;
+    border: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.add {
+    background-color: greenyellow;
+}
+
+.delete {
+    background-color: red;
+}

@@ -1,0 +1,38 @@
+.box {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    width: 365px;
+    height: 250px;
+    border-radius: 5px;
+    animation: box-border 1s infinite;
+}
+
+@keyframes box-border {
+    0% {
+        border-color: red;
+    }
+    25% {
+        border-color: blue;
+    }
+    50% {
+        border-color: green;
+    }
+    75% {
+        border-color: yellow;
+    }
+}
+
+.value {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.controls {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
